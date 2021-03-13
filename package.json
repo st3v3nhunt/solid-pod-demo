@@ -1,7 +1,7 @@
 {
   "name": "starter-node-repo",
   "version": "1.0.0",
-  "description": "A bare bones repo with useful some basics added",
+  "description": "Solid pod demo",
   "main": "src/app.js",
   "scripts": {
     "lint": "standard",

@@ -1,24 +1,11 @@
-# starter-node-repo
+# Solid Pod Demo
 
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
-[![Known Vulnerabilities](https://snyk.io/test/github/st3v3nhunt/starter-node-repo/badge.svg)](https://snyk.io/test/github/st3v3nhunt/starter-node-repo)
+[![Known Vulnerabilities](https://snyk.io/test/github/st3v3nhunt/solid-pod-demo/badge.svg)](https://snyk.io/test/github/st3v3nhunt/solid-pod-demo)
 
-> A blank repo with some useful modules installed to save time when starting a
-> new project
-
-## Usage
-
-Create a new repository from this template and run `./rename.js` specifying the
-new name of the repository and the description to use e.g.
-
-```shell
-./rename.js my-new-repo "Really useful description"
-```
-
-Once the rename has been completed the script can be removed.
-
-If there is an issue during the rename the changes can be reverted via
-`git clean -df && git checkout -- .`
+> Run through of the [Solid](https://solidproject.org/)
+> [getting starting](https://solidproject.org/developers/tutorials/getting-started)
+> guide
 
 ## Running the application
 

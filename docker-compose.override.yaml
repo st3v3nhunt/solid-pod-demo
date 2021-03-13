@@ -1,12 +1,12 @@
 version: '3.8'
 
 services:
-  starter-node-repo:
+  solid-pod-demo:
     build:
       args:
         NODE_ENV: development
-    image: starter-node-repo-development
-    container_name: starter-node-repo-development
+    image: solid-pod-demo-development
+    container_name: solid-pod-demo-development
     ports:
       - "3000:3000"
       - "9229:9229"
