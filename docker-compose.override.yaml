@@ -8,7 +8,8 @@ services:
     image: solid-pod-demo-development
     container_name: solid-pod-demo-development
     ports:
-      - "3000:3000"
+      - "1234:3000"
       - "9229:9229"
     volumes:
-      - ./:/home/node/app
+      - ./src/:/home/node/app/src/
+      - ./package.json:/home/node/app/package.json

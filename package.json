@@ -5,8 +5,9 @@
   "main": "src/app.js",
   "scripts": {
     "lint": "standard",
+    "parcel": "npx parcel src/frontend/index.html",
     "start": "node src/app.js",
-    "start:watch": "nodemon src/app.js",
+    "start:watch": "npm run parcel",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "st3v3nhunt",
@@ -19,7 +20,7 @@
     "@inrupt/solid-client": "^1.5.0",
     "@inrupt/solid-client-authn-browser": "^1.7.2",
     "@inrupt/vocab-common-rdf": "^0.7.2",
-    "parcel-bundler": "^1.12.4"
+    "parcel-bundler": "^1.12.3"
   },
   "browserslist": [
     "last 3 and_chr versions",
