@@ -2,7 +2,7 @@ FROM node:14.16-alpine3.10
 
 # Default env to production
 ARG NODE_ENV=production
-ARG PORT=3000
+ARG PORT=1234
 ARG PORT_DEBUG=9229
 
 ENV NODE_ENV=$NODE_ENV

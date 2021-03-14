@@ -38,5 +38,5 @@ achieved by building the image and running it with docker:
 ```shell
 docker build . --build-arg NODE_ENV=development -t starter-node-repo
 
-docker run --init -p 3000:3000 -p 9229:9229 -t starter-node-repo
+docker run --init -p 1234:1234 -p 9229:9229 -t starter-node-repo
 ```
